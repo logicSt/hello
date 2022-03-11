@@ -26,6 +26,7 @@ alphabet = 'A';
 while (alphabet <= 'Z')
 {
 putchar(alphabet);
+alphabet++;
 }
 
 putchar('\n');
