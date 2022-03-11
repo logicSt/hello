@@ -21,13 +21,11 @@ putchar(alphabet);
 alphabet++;
 }
 
-char ALPHABET;
+alphabet = 'A';
 
-ALPHABET = 'A';
-
-while (ALPHABET <= 'Z')
+while (alphabet <= 'Z')
 {
-putchar(ALPHABET);
+putchar(alphabet);
 }
 
 putchar('\n');
